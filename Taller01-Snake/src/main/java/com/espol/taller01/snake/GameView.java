@@ -115,7 +115,7 @@ public class GameView extends JComponent {
 			}
 		} else {
 			g.setFont(new Font("Sans", Font.BOLD, 24));
-			g.setColor(Color.BLACK);
+			g.setColor(Color.GREEN);
 			final char[] message = "No model chosen.".toCharArray(); 
 			g.drawChars(message, 0, message.length, 50, 50);
 		}
